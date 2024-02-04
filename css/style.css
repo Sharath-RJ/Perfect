@@ -186,7 +186,7 @@
 
 /*** Hero Header ***/
 .hero-header {
-    background: linear-gradient(180deg, #2f3d9900, #2f3d99b7),  url(../img/house-1.jpeg);
+    background: linear-gradient(180deg, #2f3d9900, #2f3d99b7),  url(../img/house-1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -194,7 +194,7 @@
 
  @media (max-width: 767px) {
     .hero-header{
-         background: linear-gradient(180deg, #2f3d9900, #2f3d99b7),  url(../img/house-3.jpeg);
+         background: linear-gradient(180deg, #2f3d9900, #2f3d99b7),  url(../img/house-3.jpg);
              background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;

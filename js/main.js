@@ -134,22 +134,22 @@ $(document).ready(function () {
 
 // Assume you have an array of image URLs
 var imageArray = [
-    "img/house-1.jpeg",
-    "img/house-2.jpeg",
-    "img/house-3.jpeg",
-    "img/house-4.jpeg",
-    "img/interior-1.jpeg",
-    "img/interior-2.jpeg",
-    "img/interior-3.jpeg",
-    "img/interior-4.jpeg",
-    "img/house-5.jpeg",
-    "img/house-6.jpeg",
-    "img/house-7.jpeg",
-    "img/house-8.jpeg",
-    "img/interior-5.jpeg",
-    "img/interior-6.jpeg",
-    "img/interior-7.jpeg",
-    "img/interior-8.jpeg",
+    "img/house-1.jpg",
+    "img/house-2.jpg",
+    "img/house-3.jpg",
+    "img/house-4.jpg",
+    "img/interior-1.jpg",
+    "img/interior-2.jpg",
+    "img/interior-3.jpg",
+    "img/interior-4.jpg",
+    "img/house-5.jpg",
+    "img/house-6.jpg",
+    "img/house-7.jpg",
+    "img/house-8.jpg",
+    "img/interior-5.jpg",
+    "img/interior-6.jpg",
+    "img/interior-7.jpg",
+    "img/interior-8.jpg",
     // Add more image URLs here
 ]
 

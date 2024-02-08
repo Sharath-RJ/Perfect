@@ -348,9 +348,17 @@ button.addEventListener("click", () => {
                 $("#message-error").text() === ""
             ) {
                 $("#loader").show()
+                // Get the current date
+                var currentDate = new Date().toISOString()
+                // Append the current date to the form data
+                var formData =
+                    $("#submit-form").serialize() +
+                    "&currentDate=" +
+                    encodeURIComponent(currentDate)
                 $.ajax({
                     url: "https://script.google.com/macros/s/AKfycbyOHi-JeRNT5brB4ZQoh0o5QUohYDtht9oWyc4iQM87KvDjXRKuDxdCjxMXwTbEz88xmQ/exec",
-                    data: $("#submit-form").serialize(),
+
+                    data:formData,
                     method: "post",
                     success: function (response) {
                         $("#loader").hide()

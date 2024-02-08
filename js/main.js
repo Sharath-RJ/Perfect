@@ -359,7 +359,7 @@ button.addEventListener("click", () => {
                   $("#currentDate").val(formattedDate)
                  
                 $.ajax({
-                    url: "https://script.google.com/macros/s/AKfycbxRkxtyMRQb8AxUycmxzMeKQyFDtu8pInxUp-LuTSKY_y3Xjf7u5F9mKvG9PJJNfJWqkg/exec",
+                    url: "https://script.google.com/macros/s/AKfycbzBaRBH6KtYIt3B3FW0qt-yJ2olsRWV6Q0WKb2Pl4deJXiFK28tasqH47yFhwv2L2emQg/exec",
 
                     data: $("#submit-form").serialize(),
                     method: "post",

@@ -347,11 +347,19 @@ button.addEventListener("click", () => {
             ) {
                 $("#loader").show()
                 // Get the current date
-                var currentDate = new Date().toISOString()
-                // Append the current date to the form data
+               var currentDate = new Date()
+               // Extract year, month, and day components
+               var year = currentDate.getFullYear()
+               var month = currentDate.getMonth() + 1 // Months are zero-indexed, so we add 1
+               var day = currentDate.getDate()
+
+               // Format the date as YYYY-MM-DD
+               var formattedDate =
+                   day + " / " + month+ " / "  + year
+                  $("#currentDate").val(formattedDate)
                  
                 $.ajax({
-                    url: "https://script.google.com/macros/s/AKfycbyOHi-JeRNT5brB4ZQoh0o5QUohYDtht9oWyc4iQM87KvDjXRKuDxdCjxMXwTbEz88xmQ/exec",
+                    url: "https://script.google.com/macros/s/AKfycbxRkxtyMRQb8AxUycmxzMeKQyFDtu8pInxUp-LuTSKY_y3Xjf7u5F9mKvG9PJJNfJWqkg/exec",
 
                     data: $("#submit-form").serialize(),
                     method: "post",
